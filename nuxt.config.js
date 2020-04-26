@@ -18,6 +18,7 @@ export default {
       { src: '/slick/slick.min.js' },
       { src: '/slideshow.js' },
       { src: '/loader.js' },
+      { src: '/index-loader.js' },
       { src: '/hamburger.js' },
       { src: '/page-top.js' }
     ]
