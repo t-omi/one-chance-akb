@@ -1,0 +1,46 @@
+.main-box {
+    padding-bottom: 30px;
+}
+
+.menu-page {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-page img {
+    width: 40%;
+    position: relative;
+}
+
+.menu01,.menu03,.menu05,.menu07,.menu09 {
+    float: left;
+    left: 10%;
+}
+
+.menu02,.menu04,.menu06,.menu08,.menu10 {
+    float: right;
+    right: 10%;
+}
+
+.clear-fix {
+    content: "";
+    display:block;
+    clear:both;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .menu-page img {
+        width: 100%;
+        position: static;
+    }
+
+    .menu01,.menu03,.menu05,.menu07,.menu09 {
+        float: none;
+        left: 0;
+    }
+    
+    .menu02,.menu04,.menu06,.menu08,.menu10 {
+        float: none;
+        right: none;
+    }
+}

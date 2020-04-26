@@ -1,0 +1,175 @@
+.maid-table {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding-bottom: 30px;
+    padding: 5% 0 0 5%;
+    background-color: #FF4B80;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+	background-size: 50px 50px;
+	background-image:
+	linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%,
+	 transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%,
+	 transparent 75%, transparent),
+	linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%,
+	 transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%,
+     transparent 75%, transparent);
+}
+
+.maid-table .img-area {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.maid-table .img-area img {
+    border: solid 10px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 100%;
+}
+
+.maid-table .profile-area {
+    height: 100%;
+    width: 75%;
+    float: right;
+}
+
+.maid-table .profile-area .maid-name {
+    width: 50%;
+    font-size: 2.5vw;
+    color: #a2758f;
+    text-align: center;
+    padding: 0.3em;
+    margin: 0 4.5em;
+    line-height: 1.3;
+    background: #f4efff;
+    border-radius: 40px ;
+    border: solid 3px white;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));
+}
+
+.maid-table .profile-area .profile-box {
+    height: 70%;
+    margin: 10%;
+    border-radius: 20px;
+}
+
+.maid-table .profile-area .profile-box .que-and-ans {
+    display: flex;
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));
+}
+
+.maid-table .profile-area .profile-box .que-and-ans dt{
+    font-size: 1.0rem;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #a2758f;
+    background-color: #f4efff;
+    border-radius: 10px 0 0 10px ;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    padding: 7px;
+    padding-left: 10px;
+}
+
+.maid-table .profile-area .profile-box .que-and-ans dd {
+    font-size: 1.0rem;
+    margin-top: 10px;
+    color: #a2758f;
+    background-color: white;
+    border-radius: 0 10px 10px 0 ;
+    width: 70%;
+    padding: 7px;
+    padding-left: 10px;
+    white-space: pre-wrap;
+}
+
+.maid-table .profile-area .profile-box .que-and-ans a{
+    text-decoration: none;
+    color: #a27580;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .maid-table {
+        padding: 0 0 40px 0;
+        width: 90%;
+    }
+    
+    .maid-table#over-1 {
+        height: 650px;
+    }
+
+    .maid-table#over-2 {
+        height: 680px;
+    }
+
+    .maid-table#over-3 {
+        height: 700px;
+    }
+
+    .maid-table#over-5 {
+        height: 740px;
+    }
+
+    .maid-table#over-6 {
+        height: 760px;
+    }
+
+    .maid-table#over-7 {
+        height: 795px;
+    }
+
+    .maid-table .img-area {
+        height: 210px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .maid-table .img-area img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .maid-table .profile-area {
+        display: block;
+        height: 70%;
+        width: 100%;
+    }
+
+    .maid-table .profile-area .maid-name {
+        margin: 0 auto;
+        width: 55%;
+        font-size: 1.5rem;
+    }
+
+    .maid-table .profile-area #long-name{
+        width: 80%;
+    }
+
+    .maid-table .profile-area .profile-box {
+        height: 70%;
+        width: 90%;
+        padding-top: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
+    .maid-table .profile-area .profile-box .que-and-ans dt {
+        font-size: 0.9rem;
+        width: 42%;
+    }
+
+    .maid-table .profile-area .profile-box .que-and-ans dd {
+        width: 58%;
+    }
+
+    .maid-table .profile-area .profile-box .que-and-ans dt span#font-small{
+        font-size: 0.75rem;
+    }
+}

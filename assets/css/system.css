@@ -1,0 +1,48 @@
+.main-box p#intro {
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.system-box p{
+    padding: 50px 0;
+    font-size: 1.3em;
+}
+
+.system-box p#title {
+    padding: 30px 0 20px 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.system-box div.chage-detail,.system-box div.tax-detail,.system-box div.caution-detail {
+    width: 60%;
+    margin-left: 23%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .main-box p#intro {
+        padding-bottom: 30px;
+        text-align: unset;
+        font-size: 0.9em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .system-box p{
+        padding: 10px 0;
+        font-size: 0.9em;
+    }
+    .system-box p#title {
+        padding: 30px 0 20px 0;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .system-box div.chage-detail,.system-box div.tax-detail,.system-box div.caution-detail {
+        width: 75%;
+        margin-left: 14%;
+    }
+}
+
+.system-box div.caution-detail p a#under-line {
+    text-decoration: underline;
+}

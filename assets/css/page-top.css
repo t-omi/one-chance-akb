@@ -1,0 +1,16 @@
+.fa-chevron-circle-up {
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    z-index: 10;
+}
+
+.hide::before {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.fa-chevron-circle-up:before {
+    font-size: 62.5px;
+    color: rgb(235, 235, 235);
+}
