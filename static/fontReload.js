@@ -3,3 +3,10 @@ function fontReload(){
   sleep(1000);
   FONTPLUS.start()
 };
+
+function sleep(waitMsec) {
+  var startMsec = new Date();
+ 
+  // 指定ミリ秒間だけループさせる
+  while (new Date() - startMsec < waitMsec);
+}
