@@ -8,4 +8,7 @@ $('head').append(
         $("#fade").css("height", pageH).delay(900).fadeOut(800);
         $("#loader").delay(600).fadeOut(300);
         $("#wrap").css("display", "block");
+    
+        slideshow();
+        fontReload()
     });
