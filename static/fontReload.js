@@ -7,6 +7,6 @@ function sleep(waitMsec) {
 
 function fontReload(){
   FONTPLUS.async()
-  sleep(1000);
+  sleep(100);
   FONTPLUS.start()
 };
