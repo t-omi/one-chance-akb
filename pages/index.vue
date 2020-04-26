@@ -11,7 +11,9 @@
       <div class="notice-title">
         <p>＜お知らせ＞</p>
       </div>
-      <NoticeTable></NoticeTable>
+      <template>
+        <NoticeTable></NoticeTable>
+      </template>
       <div class="twitter-box">
         <a
           class="twitter-timeline"
