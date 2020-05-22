@@ -46,10 +46,20 @@ export default {
   },
   mounted() {
     this.fontReload();
+    this.slideshow();
   },
   methods: {
     fontReload() {
       FONTPLUS.start();
+    },
+    slideshow() {
+      $('.slideshow').slick({
+      accessibility: true,
+      autoplay: true,
+      autoplaySpeed: 3500,
+      dots: true,
+      fade: true,
+    });
     }
   }
 };
