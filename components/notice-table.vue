@@ -3,7 +3,7 @@
     <div class="notice-table" v-for="item in items" :key="item.id">
       <img :src="item.imgURL.url" />
       <p>
-        <a href="item.noticeURL">{{item.title}}</a>
+        <a :href="item.noticeURL">{{item.title}}</a>
       </p>
     </div>
   </div>
@@ -17,13 +17,6 @@ export default {
       return{
          items:""
       }
-  },
-  head() {
-    return {
-      script: [
-        { src: '/fontReload.js' }
-        ]
-    }
   },
   mounted(){
      this.asyncData();

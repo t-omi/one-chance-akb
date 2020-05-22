@@ -45,13 +45,9 @@ export default {
     NoticeTable
   },
   mounted() {
-    this.fontReload();
     this.slideshow();
   },
   methods: {
-    fontReload() {
-      FONTPLUS.start();
-    },
     slideshow() {
       $('.slideshow').slick({
       accessibility: true,

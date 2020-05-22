@@ -18,14 +18,6 @@ export default {
  },
   components: {
     MaidTable
-  },
-  mounted() {
-    this.fontReload();
-  },
-  methods: {
-    fontReload() {
-      FONTPLUS.start();
-    }
   }
 };
 </script>

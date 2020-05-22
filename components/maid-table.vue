@@ -73,13 +73,6 @@ export default {
       items: ""
     };
   },
-  head() {
-    return {
-      script: [
-        { src: '/fontReload.js' }
-        ]
-    }
-  },
   mounted() {
     this.asyncData();
     this.fontReload();
