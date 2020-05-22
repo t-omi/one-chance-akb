@@ -10,5 +10,4 @@ $('head').append(
         $("#wrap").css("display", "block");
     
         slideshow();
-        fontReload();
     });

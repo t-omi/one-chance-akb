@@ -82,6 +82,7 @@ export default {
   },
   mounted() {
     this.asyncData();
+    this.fontReload();
   },
   methods: {
     async asyncData() {
@@ -92,6 +93,9 @@ export default {
         .then(res => {
           this.items = res.data.contents;
         });
+    },
+    fontReload() {
+      FONTPLUS.start();
     }
   }
 };

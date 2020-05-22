@@ -19,8 +19,7 @@
           class="twitter-timeline"
           data-height="100%"
           data-wight="100%"
-          data-chrome="”transparent"
-          nofooter”
+          data-chrome="transparent nofooter"
           href="https://twitter.com/ONE_CHANCE_AKB?ref_src=twsrc%5Etfw"
         >
           Tweets
@@ -44,6 +43,14 @@ export default {
  },
   components: {
     NoticeTable
+  },
+  mounted() {
+    this.fontReload();
+  },
+  methods: {
+    fontReload() {
+      FONTPLUS.start();
+    }
   }
 };
 </script>

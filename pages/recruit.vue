@@ -33,7 +33,15 @@ export default {
    return {
      title: "りくるーと | 秋葉原メイドバー わんちゃんす"
    }
- }
+ },
+  mounted() {
+    this.fontReload();
+  },
+  methods: {
+    fontReload() {
+      FONTPLUS.start();
+    }
+  }
 }
 </script>
 
