@@ -7,10 +7,10 @@
     <div id="fade"></div>
     <div id="wrap">
       <header class="header">
-        <a href="https://one-chance-akb.com">
+        <nuxt-link to="/">
           <img class="logo01" src="../static/image/logo01.jpeg" />
           <img class="logo02" src="../static/image/logo02.jpeg" />
-        </a>
+        </nuxt-link>
         <div class="header-textbox">
           <p>秋葉原駅から徒歩20秒! お酒の種類にこだわったメイドバーです✨</p>
           <p>麻雀プロ在籍中 あのプロにも会えるかも？ 18:00から翌4:30（L.O.4:00）まで毎日休まず営業中♡</p>
@@ -27,39 +27,39 @@
             <nav>
               <ul>
                 <li>
-                  <a href="https://one-chance-akb.com">
+                  <nuxt-link to="/">
                     <i class="fas fa-home fa-fw"></i>ほーむ
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/about">
+                  <nuxt-link to="/about">
                     <i class="fas fa-question-circle fa-fw"></i>あばうと
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/system">
+                  <nuxt-link to="/system">
                     <i class="fas fa-yen-sign fa-fw"></i>しすてむ
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/maid">
+                  <nuxt-link to="/maid">
                     <i class="fas fa-award fa-fw"></i>めいど
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/menu">
+                  <nuxt-link to="/menu">
                     <i class="fas fa-glass-martini-alt fa-fw"></i>めにゅー
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/access">
+                  <nuxt-link to="/access">
                     <i class="fas fa-map-marker-alt fa-fw"></i>あくせす
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/recruit">
+                  <nuxt-link to="/recruit">
                     <i class="fas fa-user fa-fw"></i>りくるーと
-                  </a>
+                  </nuxt-link>
                 </li>
               </ul>
             </nav>
@@ -69,39 +69,39 @@
       <div class="top-bar">
         <ul>
           <li>
-            <a href="https://one-chance-akb.com">
+            <nuxt-link to="/">
               <i class="fas fa-home fa-fw"></i>ほーむ
-            </a>
+            </nuxt-link>
           </li>
           <li>
-            <a href="https://one-chance-akb.com/about">
+            <nuxt-link to="/about">
               <i class="fas fa-question-circle fa-fw"></i>あばうと
-            </a>
+            </nuxt-link>
           </li>
           <li>
-            <a href="https://one-chance-akb.com/system">
+            <nuxt-link to="/system">
               <i class="fas fa-yen-sign fa-fw"></i>しすてむ
-            </a>
+            </nuxt-link>
           </li>
           <li>
-            <a href="https://one-chance-akb.com/maid">
+            <nuxt-link to="/maid">
               <i class="fas fa-award fa-fw"></i>めいど
-            </a>
+            </nuxt-link>
           </li>
           <li>
-            <a href="https://one-chance-akb.com/menu">
+            <nuxt-link to="/menu">
               <i class="fas fa-glass-martini-alt fa-fw"></i>めにゅー
-            </a>
+            </nuxt-link>
           </li>
           <li>
-            <a href="https://one-chance-akb.com/access">
+            <nuxt-link to="/access">
               <i class="fas fa-map-marker-alt fa-fw"></i>あくせす
-            </a>
+            </nuxt-link>
           </li>
           <li>
-            <a href="https://one-chance-akb.com/recruit">
+            <nuxt-link to="/recruit">
               <i class="fas fa-user fa-fw"></i>りくるーと
-            </a>
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -126,39 +126,39 @@
             <div class="sd-textbox">
               <ul>
                 <li>
-                  <a href="https://one-chance-akb.com">
+                  <nuxt-link to="/">
                     <i class="fas fa-home fa-fw"></i>ほーむ
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/about">
+                  <nuxt-link to="/about">
                     <i class="fas fa-question-circle fa-fw"></i>あばうと
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/system">
+                  <nuxt-link to="/system">
                     <i class="fas fa-yen-sign fa-fw"></i>しすてむ
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/maid">
+                  <nuxt-link to="/maid">
                     <i class="fas fa-award fa-fw"></i>めいど
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/menu">
+                  <nuxt-link to="/menu">
                     <i class="fas fa-glass-martini-alt fa-fw"></i>めにゅー
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/access">
+                  <nuxt-link to="/access">
                     <i class="fas fa-map-marker-alt fa-fw"></i>あくせす
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a href="https://one-chance-akb.com/recruit">
+                  <nuxt-link to="/recruit">
                     <i class="fas fa-user fa-fw"></i>りくるーと
-                  </a>
+                  </nuxt-link>
                 </li>
               </ul>
             </div>
