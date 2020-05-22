@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div ref="container" class="container">
     <i class="fas fa-chevron-circle-up" id="page_top"></i>
     <div id="loader">
       <img src="../static/image/load.gif" alt="Now Loading..." />
@@ -16,7 +16,7 @@
           <p>麻雀プロ在籍中 あのプロにも会えるかも？ 18:00から翌4:30（L.O.4:00）まで毎日休まず営業中♡</p>
         </div>
         <div class="hamburger">
-          <div id="nav-toggle">
+          <div ref="nav_toggle" id="nav-toggle" v-on:click="switchNav">
             <div>
               <span></span>
               <span></span>
@@ -26,37 +26,37 @@
           <div id="gloval-nav">
             <nav>
               <ul>
-                <li>
+                <li v-on:click="switchNav">
                   <nuxt-link to="/">
                     <i class="fas fa-home fa-fw"></i>ほーむ
                   </nuxt-link>
                 </li>
-                <li>
+                <li v-on:click="switchNav">
                   <nuxt-link to="/about">
                     <i class="fas fa-question-circle fa-fw"></i>あばうと
                   </nuxt-link>
                 </li>
-                <li>
+                <li v-on:click="switchNav">
                   <nuxt-link to="/system">
                     <i class="fas fa-yen-sign fa-fw"></i>しすてむ
                   </nuxt-link>
                 </li>
-                <li>
+                <li v-on:click="switchNav">
                   <nuxt-link to="/maid">
                     <i class="fas fa-award fa-fw"></i>めいど
                   </nuxt-link>
                 </li>
-                <li>
+                <li v-on:click="switchNav">
                   <nuxt-link to="/menu">
                     <i class="fas fa-glass-martini-alt fa-fw"></i>めにゅー
                   </nuxt-link>
                 </li>
-                <li>
+                <li v-on:click="switchNav">
                   <nuxt-link to="/access">
                     <i class="fas fa-map-marker-alt fa-fw"></i>あくせす
                   </nuxt-link>
                 </li>
-                <li>
+                <li v-on:click="switchNav">
                   <nuxt-link to="/recruit">
                     <i class="fas fa-user fa-fw"></i>りくるーと
                   </nuxt-link>
@@ -172,6 +172,30 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false
+    }
+  },
+  methods: {
+    switchNav: function() {
+      const containerElement = this.$refs.container
+      const hamburgerElement = this.$refs.nav_toggle
+      
+      this.isOpen = !this.isOpen
+      
+      if(this.isOpen){
+        containerElement.setAttribute('class','container open');
+      } else {
+        containerElement.setAttribute('class','container');
+      }
+    }
+  }
+}
+</script>
 
 <style>
 @import "~/assets/css/hamburger.css";
