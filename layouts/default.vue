@@ -1,6 +1,6 @@
 <template>
   <div ref="container" class="container">
-    <i class="fas fa-chevron-circle-up" id="page_top"></i>
+    <i class="fas fa-chevron-circle-up" v-on:click="scrollTop" v-show="scrollY > 300"></i>
     <div id="loader">
       <img src="../static/image/load.gif" alt="Now Loading..." />
     </div>
@@ -177,8 +177,12 @@
 export default {
   data() {
     return {
-      isOpen: false
+      isOpen: false,
+      scrollY: 0
     }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
   },
   methods: {
     switchNav: function() {
@@ -192,6 +196,15 @@ export default {
       } else {
         containerElement.setAttribute('class','container');
       }
+    },
+    scrollTop: function(){
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    },
+    handleScroll: function () {
+      this.scrollY = window.scrollY;
     }
   }
 }
