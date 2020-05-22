@@ -25,7 +25,7 @@ export default {
   methods:{
     async asyncData(){
       await axios
-        .get("https://one-chance-akb.microcms.io/api/v1/notice", {
+        .get("https://one-chance-akb.microcms.io/api/v1/notice?limit=99", {
           headers: { "X-API-KEY": "605cd2f5-930f-4f7c-8dd1-189b74757d8f" }
         })
         .then(res => {
