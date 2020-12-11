@@ -113,6 +113,16 @@
     text-align: center;
 }
 
+.main-box .header-info {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.main-box .header-info a {
+    color: #FF4B80;
+    font-size: 2.0em;
+}
+
 @media only screen and (max-device-width: 480px) {
     .main-box {
         padding-bottom: 50px;
@@ -122,10 +132,18 @@
         font-size: 1.8em;
         text-align: center;
     }
+    .main-box .header-info {
+        text-align: center;
+        text-decoration: underline;
+    }
+    .main-box .header-info a {
+        color: #FF4B80;
+        font-size: 1.0em;
+    }
 }
 
 .slideshow {
-    padding: 70px 100px 0px 100px;
+    padding: 15px 100px 0px 100px;
     margin-left: 10%;
     margin-right: 10%;
     margin: 3%;
@@ -176,7 +194,7 @@ button.slick-next.slick-arrow::before, button.slick-prev.slick-arrow::before {
 
 .notice-box {
     float: left;
-    border-radius: 25px;
+    border-radius: 10px;
     height: 500px;
     width: 50%;
     margin-left: 10%;
@@ -225,7 +243,7 @@ button.slick-next.slick-arrow::before, button.slick-prev.slick-arrow::before {
     }
     .notice-box {
         float: none;
-        border-radius: 30px;
+        border-radius: 10px;
         margin-left: 0;
         margin: 5% auto;
         height: 400px;
@@ -248,7 +266,7 @@ button.slick-next.slick-arrow::before, button.slick-prev.slick-arrow::before {
 
 .twitter-box {
     float: right;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-right: 10%;
     margin-top: 4%;
     height: 500px;
@@ -265,7 +283,7 @@ button.slick-next.slick-arrow::before, button.slick-prev.slick-arrow::before {
 @media only screen and (max-device-width: 480px) {
     .twitter-box {
         float: none;
-        border-radius: 30px;
+        border-radius: 10px;
         width: 85%;
         margin: 0 auto;
         margin-top: 30px;
