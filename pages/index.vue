@@ -1,7 +1,7 @@
 <template>
   <div class="main-box">
   <div class="header-info">
-    <a href="https://one-chance-akb.com/notice">【時短営業】12/17まで22時閉店となります</a>
+    <nuxt-link to="/notice">【時短営業】12/17まで22時閉店となります</nuxt-link>
   </div>
     <div class="slideshow">
       <img src="../static/image/slideshow/index01.jpeg" />
