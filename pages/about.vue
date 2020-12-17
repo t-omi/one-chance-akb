@@ -26,7 +26,7 @@
         <br />日常を忘れて、どうぞごゆっくりとお楽しみ下さいませ。
       </p>
     </div>
-    <h2 class="page-title">Attenntion</h2>
+    <h2 class="page-title">Attention</h2>
     <div class="atten-box">
       <div class="atten-text-box">
         <p>以下の行為はご遠慮くださいませ。</p>
@@ -69,5 +69,5 @@ export default {
 </script>
 
 <style>
-@import "~/assets/css/about.css";
+@import "../assets/css/about.css";
 </style>
