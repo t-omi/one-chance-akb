@@ -3,7 +3,8 @@
     <div class="notice-table" v-for="item in items" :key="item.id">
       <img :src="item.imgURL.url" />
       <p>
-        <a :href="item.noticeURL">{{item.title}}</a>
+        <!-- お知らせ系は別タブ展開のほうが滞在時間が伸びる -->
+        <a :href="item.noticeURL" target="_blank">{{item.title}}</a>
       </p>
     </div>
   </div>

@@ -28,7 +28,7 @@
     top: 17.5px;
   }
   #nav-toggle:hover span:nth-child(1) {
-    top: 0px;
+    top: 0;
   }
   #nav-toggle:hover span:nth-child(3) {
     top: 17.5px;

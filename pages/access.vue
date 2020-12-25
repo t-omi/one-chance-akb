@@ -43,5 +43,5 @@ export default {
 </script>
 
 <style>
-@import "~/assets/css/access.css";
+@import "../assets/css/access.css";
 </style>

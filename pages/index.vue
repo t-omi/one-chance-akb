@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import NoticeTable from "~/components/notice-table";
+import NoticeTable from "../components/notice-table";
 
 export default {
   head () {
@@ -65,6 +65,6 @@ export default {
 </script>
 
 <style>
-@import "~/static/slick/slick-theme.css";
-@import "~/static/slick/slick.css";
+@import "../static/slick/slick-theme.css";
+@import "../static/slick/slick.css";
 </style>
