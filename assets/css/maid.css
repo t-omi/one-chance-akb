@@ -1,9 +1,8 @@
 .maid-table {
     height: auto;
     width: 70%;
-    margin: auto;
-    margin-bottom: 10%;
-    padding: 5% 0 0 5%;
+  margin: auto auto 10%;
+  padding: 5% 0 0 5%;
     background-color: #FF4B80;
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 	background-size: 50px 50px;
@@ -70,8 +69,7 @@
     width: 30%;
     align-items: center;
     display: flex;
-    padding: 7px;
-    padding-left: 10px;
+  padding: 7px 7px 7px 10px;
 }
 
 .maid-table .profile-area .profile-box .que-and-ans dd {
@@ -81,9 +79,8 @@
     background-color: white;
     border-radius: 0 10px 10px 0 ;
     width: 70%;
-    padding: 7px;
-    padding-left: 10px;
-    white-space: pre-wrap;
+  padding: 7px 7px 7px 10px;
+  white-space: pre-wrap;
 }
 
 .maid-table .profile-area .profile-box .que-and-ans a{
@@ -96,7 +93,7 @@
         padding: 0 0 40px 0;
         width: 90%;
     }
-    
+
     .maid-table#over-1 {
         height: 650px;
     }
@@ -125,8 +122,7 @@
         height: 210px;
         width: 100%;
         display: block;
-        margin: 0 auto;
-        margin-top: 20px;
+      margin: 20px auto 0;
     }
 
     .maid-table .img-area img {
