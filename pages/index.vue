@@ -1,7 +1,7 @@
 <template>
   <div class="main-box">
   <div class="header-info">
-    <nuxt-link to="/notice">【時短営業】12/17まで22時閉店となります</nuxt-link>
+    <nuxt-link to="/notice">【時短営業】12:00~21:00の営業となります</nuxt-link>
   </div>
     <div class="slideshow">
       <img src="../static/image/slideshow/index01.jpeg" />
