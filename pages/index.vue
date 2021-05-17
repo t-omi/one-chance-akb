@@ -1,7 +1,6 @@
 <template>
   <div class="main-box">
   <div class="header-info">
-
   </div>
     <div class="slideshow">
       <img src="../static/image/slideshow/index01.jpeg" />
@@ -36,7 +35,7 @@
 </template>
 
 <script>
-import NoticeTable from "~/components/notice-table";
+import NoticeTable from "../components/notice-table";
 
 export default {
   head () {
@@ -65,6 +64,6 @@ export default {
 </script>
 
 <style>
-@import "~/static/slick/slick-theme.css";
-@import "~/static/slick/slick.css";
+@import "../static/slick/slick-theme.css";
+@import "../static/slick/slick.css";
 </style>
