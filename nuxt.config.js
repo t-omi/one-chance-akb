@@ -14,7 +14,7 @@ export default {
     ],
     script: [
       { type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.1.0.min.js' },
-      { type: 'text/javascript', src: '//webfont.fontplus.jp/accessor/script/fontplus.js?3YlybV6urQ4%3D&box=tlruxgb88pk%3D&aa=1&ab=2', charset: 'utf-8' },
+      { type: 'text/javascript', src: 'https://webfont.fontplus.jp/accessor/script/fontplus.js?3YlybV6urQ4%3D&box=tlruxgb88pk%3D&aa=1&ab=2', charset: 'utf-8' },
       { src: '/slick/slick.min.js' },
       { src: '/index-loader.js' }
     ]
@@ -43,7 +43,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    
+
   ],
   /*
   ** Build configuration
