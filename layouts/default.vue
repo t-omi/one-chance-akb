@@ -12,7 +12,7 @@
           <img class="logo02" src="../static/image/logo02.jpeg" />
         </nuxt-link>
         <div class="header-textbox">
-          <p>秋葉原駅から徒歩20秒! お酒の種類にこだわったメイドバーです✨</p>
+          <p>JR秋葉原駅から徒歩30秒! お酒の種類にこだわったメイドバーです✨</p>
           <p>麻雀プロ在籍中 あのプロにも会えるかも？ 18:00から翌4:30（L.O.4:00）まで毎日休まず営業中♡</p>
         </div>
         <div class="hamburger">
@@ -187,10 +187,9 @@ export default {
   methods: {
     switchNav: function() {
       const containerElement = this.$refs.container
-      const hamburgerElement = this.$refs.nav_toggle
-      
+
       this.isOpen = !this.isOpen
-      
+
       if(this.isOpen){
         containerElement.setAttribute('class','container open');
       } else {
