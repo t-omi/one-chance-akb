@@ -3,7 +3,7 @@
     <h2 class="page-title">System</h2>
     <p id="intro">わんちゃんすでは以下のシステムにて、明朗会計をお約束しております。</p>
     <div class="system-box">
-      <p id="title">＜チャージ料＞</p>
+      <p class="title">＜チャージ料＞</p>
       <div class="chage-detail">
         <p>
           お一人様 1,000円のテーブルチャージ料をいただいております。
@@ -13,7 +13,7 @@
           <br />※女性の場合、チャージ料が半額の500円となります。
         </p>
       </div>
-      <p id="title">＜消費税・サービス料＞</p>
+      <p class="title">＜消費税・サービス料＞</p>
       <div class="tax-detail">
         <p>
           メニューは全て税抜価格となっております。
@@ -22,7 +22,7 @@
           <br />よって、合計額 + サービス料 + チャージ料 の総額がお会計額となります。
         </p>
       </div>
-      <p id="title">＜注意事項＞</p>
+      <p class="title">＜注意事項＞</p>
       <div class="caution-detail">
         <p>
           お1人様1時間に1品以上のオーダーをいただいております。
@@ -56,5 +56,5 @@ export default {
 </script>
 
 <style>
-@import "~/assets/css/system.css";
+@import "../assets/css/system.css";
 </style>

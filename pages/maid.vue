@@ -4,7 +4,7 @@
     <template>
       <MaidTable></MaidTable>
     </template>
-  </div>    
+  </div>
 </template>
 
 <script>
@@ -23,5 +23,5 @@ export default {
 </script>
 
 <style>
-@import "~/assets/css/maid.css";
+@import "../assets/css/maid.css";
 </style>

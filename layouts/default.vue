@@ -210,7 +210,7 @@ export default {
 </script>
 
 <style>
-@import "~/assets/css/hamburger.css";
-@import "~/assets/css/page-top.css";
-@import "~/assets/css/loader.css";
+@import "../assets/css/hamburger.css";
+@import "../assets/css/page-top.css";
+@import "../assets/css/loader.css";
 </style>
