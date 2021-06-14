@@ -46,5 +46,5 @@ export default {
 </script>
 
 <style>
-@import "~/assets/css/recruit.css";
+@import "../assets/css/recruit.css";
 </style>

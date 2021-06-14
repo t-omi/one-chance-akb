@@ -25,13 +25,13 @@
     top: 35px;
   }
   #nav-toggle span:nth-child(3) {
-    top: 17.5px;
+    top: 18px;
   }
   #nav-toggle:hover span:nth-child(1) {
     top: 0;
   }
   #nav-toggle:hover span:nth-child(3) {
-    top: 17.5px;
+    top: 18px;
   }
   .open #nav-toggle span {
     background: #fff;

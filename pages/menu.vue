@@ -40,5 +40,5 @@ export default {
 </script>
 
 <style>
-@import "~/assets/css/menu.css";
+@import "../assets/css/menu.css";
 </style>
